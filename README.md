@@ -12,7 +12,7 @@ ___
 ### 2. Experimental Analysis
 ### 3. Conclusion
 ___
-## 0. Overview of Ensemble
+## 0. Overview of Semi-Supervised Learning
 ![image](https://user-images.githubusercontent.com/115224653/204128272-c65bf7d7-a25e-491b-a06a-cfde1837ac0f.png)
 ### - What is "Ensemble?"
 Ensemble is a French word for unity and harmony. It is mainly used in music to mean concerto on various instruments. 
