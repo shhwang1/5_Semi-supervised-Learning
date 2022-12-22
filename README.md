@@ -1572,3 +1572,11 @@ ___
 ## Experimental Analysis
 
 - Semi-supervised Learning을 검증하기 위해서는 우선 Supervised-Learning과 비교를 해야합니다. 단순 비교가 아니라, Labeled data의 비율을 줄여가며 실험 결과를 비교하는 것이 중요합니다. 왜냐하면 Semi-supervised Learning이 빛을 발할 때는 Labeled data가 많이 없을 때, 즉 학습 데이터의 비율이 낮을 때 Supervised Learning의 성능보다 높다면 의미가 있기 때문입니다. 따라서, 본 튜토리얼에서는 Cifar10 data의 labeled data의 수를 500, 2000, 10000, 15000, 20000 총 다섯 경우로 나누어 MixMatch, FixMatch, FlexMatch, 총 세 경우의 실험 결과를 비교하겠습니다. 
+
+| Num_Label | Supervised(wideResNet)      |MixMatch          | FixMatch  | FlexMatch |
+|:-------:|:--------------:|:-------------------:|:---------------:|:---------------:|
+| 500     | 36.145%      | 54.108%     | 57.205% | 59.753%             |
+| 2,000     | 44.343%       | 80.570%           | 83.887%           | 84.027%          |
+| 10,000     | 69.173%     | 88.730%       | 89.570% | 89.580%             |
+| 15,000     | 75.991%        | 88.740%     | 90.550% | 90.695%             |
+| 20,000     | 82.255% | 89.220% |90.556%           |90.934%  |
